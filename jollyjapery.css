@@ -1,0 +1,62 @@
+.body{
+    background: #c6c6c6;
+    display: flex;
+    justify-content: center;
+    font-family: "Courier New";
+}
+
+.main{
+    width: 910px;
+    height: 175%;
+    position: absolute;
+    background: #efefef;
+    top: 0;
+}
+
+.banner{
+    width: 910px;
+    height: 91px;
+    position: static;
+    background: #535353;
+}
+
+.navbar{
+    width: 910px;
+    height: 30px;
+    position: static;
+    background: #000000;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar a {
+    float: center;
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 23px;
+}
+.navbar a:link, .navbar a:visited {
+    color: #ffffff;
+}
+.navbar a:hover {
+    color: #c3abbd;
+}
+.latest {
+    width: 800px;
+    height: 464px;
+    background-color: #ffffff;
+    margin: 12px 55px 12px 55px;
+}
+
+.log, .news {
+    width: 40%;
+    height: 464px;
+    background-color: #ffffff;
+    margin: 12px 55px 12px 55px;
+    margin-right:10px;
+    float:left;
+}
+.newsarticle {
+    float: left;
+}
